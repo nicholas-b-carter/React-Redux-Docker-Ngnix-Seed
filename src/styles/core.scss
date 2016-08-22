@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+@import './fonts/faces.scss';
+@import './vars/vars.scss';
+@import './icons/icons.scss';
+
+:global {
+
+    body{
+        background-color: #FAFAFA;
+    }
+
+    @media screen and (min-width: 640px) {
+        .search-bar-wrapper {
+            min-width: 480px;
+            width: 40%;
+        }
+    }
+
+    .icon {
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 0;
+        cursor: pointer;
+        font-size: 0;
+        height: 100%;
+        outline: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 25px;
+    }
+
+}

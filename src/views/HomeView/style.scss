@@ -1,0 +1,28 @@
+@import '../../styles/vars/vars.scss';
+.PageTitle {
+    margin-top: 100px;
+    font-family: aileronthin;
+    h1 {
+        font-size: 45px;
+        text-transform: capitalize;
+        font-family: aileronblack;
+        margin-bottom: 6px;
+    }
+    > div {
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        width: 70%;
+        margin: 20px auto;
+    }
+}
+.Buttons {
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    button {
+        background-color: $primary-color !important;
+        color: white;
+        border-radius: 1px !important;
+    }
+}

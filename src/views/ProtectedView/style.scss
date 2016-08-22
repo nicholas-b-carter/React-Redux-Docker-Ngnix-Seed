@@ -1,0 +1,32 @@
+@import '../../styles/vars/vars.scss';
+.PageTitle {
+    margin-top: 100px;
+    font-family: aileronthin;
+    h1 {
+        font-size: 45px;
+        text-transform: capitalize;
+        font-family: aileronblack;
+        margin-bottom: 6px;
+    }
+    > div {
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        width: 70%;
+        margin: 20px auto;
+    }
+}
+.Buttons {
+    margin-top: 100px;
+    // background-color: transparent !important;
+    button {
+        background-color: $primary-color !important;
+        color: white;
+        width: 330px !important;
+        height: 50px !important;
+        line-height: 50px !important;
+        border-radius: 1px !important;
+        text-transform: uppercase !important;
+        font-size: 20px !important;
+    }
+}
