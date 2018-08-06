@@ -128,7 +128,7 @@
         "moment": "^2.14.1",
         "ramda": "^0.21.0",
         "react": "^15.3.0",
-        "react-dom": "^15.3.0",
+        "react-dom": "^16.0.1",
         "react-flexbox-grid": "^0.10.2",
         "react-mixin": "^3.0.1",
         "react-redux": "^4.4.5",
